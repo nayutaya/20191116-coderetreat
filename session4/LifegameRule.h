@@ -10,5 +10,5 @@ public:
   ~LifegameRule();
 
 public:
-   static State nextGeneration();
+   static State nextGeneration(State state, int num_of_alive_neighbours);
 };
